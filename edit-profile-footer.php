@@ -18,7 +18,7 @@ include "includes/header.php";
         </div>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 edit-damage">
                 <form action="index.html" method="post" class="settings-e">
                     <h4 class="edit-name"> Edit Profile </h4>
 

@@ -51,7 +51,9 @@
             <ul class="sidebarMenuInner">
                 <li class="padding-profile d-flex">
                     <div>
-                        <img src="Assets/images copy/wallet.png" alt="" class="wallet">
+                        <a href="payment.php">
+                            <img src="Assets/images copy/wallet.png" alt="" class="wallet">
+                        </a>
 
                     </div>
                     <div class=" mt-2 text-center">
@@ -59,7 +61,10 @@
                         <h6 color="clr-dj">Jagadeesh</h6>
                     </div>
                     <div class="align-e">
-                        <img src="Assets/images copy/edit2.png" alt="" class="wallet">
+                        <a href="edit-profile-footer.php">
+                            <img src="Assets/images copy/edit2.png" alt="" class="wallet">
+                        </a>
+
 
                     </div>
 

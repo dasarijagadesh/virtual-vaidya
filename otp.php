@@ -72,8 +72,8 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <button class="otp-continue"> <a href="index.php"> Continue</a>
-                    </button>
+                    <a href="index.php"> <button class="otp-continue"> Continue
+                        </button></a>
 
                 </div>
 

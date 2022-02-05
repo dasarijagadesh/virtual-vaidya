@@ -195,6 +195,21 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></scri
         });
     });
     </script>
+    <script>
+    $(document).ready(function() {
+
+        $("#owl-covid").owlCarousel({
+            navigation: false,
+            items: 1,
+            dots: false,
+            loop: true,
+            nav: false,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+        });
+
+    });
+    </script>
 </footer>
 </body>
 

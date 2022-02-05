@@ -32,7 +32,7 @@ include "includes/header.php";
                     <li>
 
                         <img src="assets/images copy/prescription.png" alt="">
-                        <a href="prescription.php">Prescriptions
+                        <a href="prescrption-files.php">prescriptions
                         </a>
                     </li>
                     <li>
