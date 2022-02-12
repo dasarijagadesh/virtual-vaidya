@@ -66,7 +66,7 @@ include "includes/header.php";
             <div class="col-md-6">
                 <h4 class="">Our Offerings</h4>
 
-                <div class="d-flex mt-2 mb-2">
+                <div class="d-flex mt-4 ">
 
                     <div class="card card-offers">
                         <a href="consult-now.php"><img src="Assets/images copy/doctor7.jpg" alt="" class="w-100">
@@ -116,99 +116,168 @@ include "includes/header.php";
                     <p>Common Symptoms</p>
                     <a href="consult-now.php"><button>Search</button></a>
                 </div>
-                <!-- ////////slider/////////////// -->
-                <div>
-                    <div id="owl-demo" class="owl-carousel owl-theme">
-                        <!-- ///////////Consult-from-home-slide///////////// -->
-                        <div class="item">
-                            <div class=" row justify-content-s mb-2">
 
-                                <div class="card card-img-a pt-2 pb-2">
+                <!-- ////////slider/////////////// -->
+
+                <div>
+
+
+                    <div class=" consult-home owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card card-img-a pt-2 pb-2">
+                                <div>
+                                    <a href="home-main-doctor1.php">
+                                        <img src="Assets/images copy/covid1.png" alt="">
+
+                                </div>
+                                <a href="home-main-doctor1.php">COVID-19</a>
+                                </a>
+                            </div>
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
                                     <div>
-                                        <a href="home-main-doctor1.php">
-                                            <img src="Assets/images copy/covid1.png" alt="">
+                                        <img src="Assets/images copy/puke.png" alt="consult-doctor.php">
 
                                     </div>
-                                    <a href="home-main-doctor1.php">COVID-19</a>
-                                    </a>
-                                </div>
-                                <div class="card card-img-a pt-2 pb-2">
-                                    <a href="home-main-doctor1.php">
-                                        <div>
-                                            <img src="Assets/images copy/feaver.png" alt="">
-
-                                        </div>
-                                        <a href="home-main-doctor1.php">fever</a>
-                                    </a>
-                                </div>
-                                <div class="card card-img-a pt-2 pb-2">
-                                    <a href="home-main-doctor1.php">
-                                        <div>
-                                            <img src="Assets/images copy/back-pain.png" alt="">
-
-                                        </div>
-                                        <a href="home-main-doctor1.php">Back pain</a>
-                                    </a>
-                                </div>
-                                <div class="card card-img-a pt-2 pb-2">
-                                    <a href="home-main-doctor1.php">
-                                        <div>
-                                            <img src="Assets/images copy/stomach.png" alt="consult-doctor.php">
-                                        </div>
-                                        <a href="home-main-doctor1.php">Stomach Pain</a>
-                                </div>
-                                <div class="card card-img-a pt-2 pb-2">
-                                    <a href="home-main-doctor1.php">
-                                        <div>
-                                            <img src="Assets/images copy/depression.png" alt="">
-
-                                        </div>
-                                        <a href="home-main-doctor1.php">Depression</a>
-                                    </a>
-                                </div>
-                                <div class="card card-img-a pt-2 pb-2">
-                                    <a href="home-main-doctor1.php">
-                                        <div>
-                                            <img src="Assets/images copy/hair.png" alt="">
-
-                                        </div>
-                                        <a href="home-main-doctor1.php">Hair fall</a>
-                                    </a>
-                                </div>
-                                <div class="card card-img-a pt-2 pb-2">
-                                    <a href="home-main-doctor1.php">
-                                        <a href="home-main-doctor1.php"></a>
-                                        <div>
-                                            <img src="Assets/images copy/cough.png" alt="">
-
-                                        </div>
-                                        <a href="home-main-doctor1.php">cough</a>
-                                    </a>
-                                </div>
-                                <div class="card card-img-a pt-2 pb-2">
-                                    <a href="home-main-doctor1.php">
-                                        <div>
-                                            <img src="Assets/images copy/puke.png" alt="consult-doctor.php">
-
-                                        </div>
-                                        <a href="consult-doctor.php">Vomting</a>
-                                    </a>
-                                </div>
+                                    <a href="consult-doctor.php">Vomting</a>
+                                </a>
                             </div>
-                            <!-- /////////////////////////////////// -->
                         </div>
+                        <div class="item">
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/feaver.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">fever</a>
+                                </a>
+                            </div>
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <a href="home-main-doctor1.php"></a>
+                                    <div>
+                                        <img src="Assets/images copy/cough.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">cough</a>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/back-pain.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">Back pain</a>
+                                </a>
+                            </div>
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/hair.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">Hair fall</a>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <a href="home-main-doctor1.php"></a>
+                                    <div>
+                                        <img src="Assets/images copy/cough.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">cough</a>
+                                </a>
+                            </div>
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/stomach.png" alt="consult-doctor.php">
+                                    </div>
+                                    <a href="home-main-doctor1.php">Stomach Pain</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/depression.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">Depression</a>
+                                </a>
+                            </div>
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/hair.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">Hair fall</a>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/hair.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">Hair fall</a>
+                                </a>
+                            </div>
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <a href="home-main-doctor1.php"></a>
+                                    <div>
+                                        <img src="Assets/images copy/cough.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">cough</a>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <a href="home-main-doctor1.php"></a>
+                                    <div>
+                                        <img src="Assets/images copy/cough.png" alt="">
+
+                                    </div>
+                                    <a href="home-main-doctor1.php">cough</a>
+                                </a>
+                            </div>
+
+                            <div class="card card-img-a pt-2 pb-2">
+                                <a href="home-main-doctor1.php">
+                                    <div>
+                                        <img src="Assets/images copy/puke.png" alt="consult-doctor.php">
+
+                                    </div>
+                                    <a href="consult-doctor.php">Vomting</a>
+                                </a>
+                            </div>
+
+
+                        </div>
+
+                        <!-- END OF SLIDER -->
+
+
                     </div>
-
-
-
-                    <!-- END OF SLIDER -->
-
-
                 </div>
-            </div>
 
+            </div>
         </div>
-    </div>
 </section>
 <section>
     <div class="container mt-2 mb-2">
@@ -290,7 +359,6 @@ include "includes/header.php";
                                 <p class="green-p">Available now</p>
 
                             </div>
-
                         </a>
                     </div>
                     <div class="card card-s">
@@ -494,62 +562,38 @@ include "includes/header.php";
                             </div>
                             <div>
                                 <a href="offer-sub-home1.php">Diabetes</a>
-
                             </div>
                         </a>
-
                     </div>
                     <div class="col-4 column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/bisexual.png" alt="">
-
                             </div>
                             <div>
                                 <a href="offer-sub-home1.php">Sexual Wellness</a>
-
-
                             </div>
                         </a>
-
                     </div>
                     <div class="col-4 column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/stress1.png" alt="">
-
                             </div>
                             <div>
                                 <a href="offer-sub-home1.php">Tests for fever</a>
-
                             </div>
                         </a>
-
                     </div>
-                    <!-- <div class="col-3">
-                            <div class=border-ri>
-                                <img src="../assets/images copy/pregency1.png" alt="">
-
-                            </div>
-                            <div>
-                                <a href="">Bone & Joint</a>
-
-                            </div>
-
-
-
-                        </div> -->
                 </div>
                 <div class="text-center">
                     <a href="at-home.php"> <button class="mt-4 mb-2 view-alls"> View All Symptoms
                         </button></a>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
-
 <section>
     <div class="container-fluid contain-add mb-2">
         <div class="row pt-4 pb-2">
@@ -577,11 +621,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-
-
-
             <!-- END OF SLIDER -->
-
         </div>
     </div>
 </section>
@@ -609,7 +649,6 @@ include "includes/header.php";
                         <button>799 <del>2499</del></button>
                     </a>
                 </div>
-
             </div>
             <div class="col-6 padding-offer-le mt-2 mb-2">
                 <div class="card test-color card-offer-tast ">
@@ -624,7 +663,6 @@ include "includes/header.php";
                         <button>799 <del>2499</del></button>
                     </a>
                 </div>
-
             </div>
             <div class="col-6 padding-offer-le mt-2 mb-2">
                 <div class="card test-color card-offer-tast ">
@@ -639,7 +677,6 @@ include "includes/header.php";
                         <button>799 <del>2499</del></button>
                     </a>
                 </div>
-
             </div>
             <div class="col-6 padding-offer-le mt-2 mb-2">
                 <div class="card card-offer-tast">
@@ -655,14 +692,10 @@ include "includes/header.php";
                     </a>
 
                 </div>
-
             </div>
         </div>
-
     </div>
 </section>
-
-
 <?php
    include "includes/footer.php";
    ?>

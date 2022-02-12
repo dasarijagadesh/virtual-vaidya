@@ -1318,7 +1318,7 @@ body::-webkit-scrollbar {
 }
 .pro-pic-record
 {
-  width: 58px;
+     width: 48px;
     border-radius: 50%;
 }
 .records
@@ -3354,16 +3354,17 @@ color: black !important;
 }
 .img-oc 
 {
- height: 30px;
+    height: 25px;
     background: #e9ecef;
     border-radius: 52%;
     padding: 2px;
     margin-right: 3px;
+    width: 34px;
 }
 .img-oc img
 {
-width: 24px !important;
-    padding-bottom: 4px;
+    width: 18px !important;
+    padding-bottom: 8px;
 }
 .para-oc  p
 {
@@ -3374,15 +3375,13 @@ width: 24px !important;
 }
 .card-cov 
 {
-     padding: 4px;
-    background: linear-gradient( 
-179.21deg
- ,#3743ab 2.85%,#141b56 99.41%);
+    padding: 4px;
+    background: linear-gradient( 179.21deg ,#3743ab 2.85%,#141b56 99.41%);
     border: 1px solid #3541a7 !important;
     width: 90%;
     /* display: flex; */
     /* text-align: center; */
-    margin: 2px auto;
+    margin: 15px auto;
     padding-bottom: 0px;
 }
 .clr-p-sapn
@@ -3402,7 +3401,8 @@ width: 24px !important;
 }
 .home-covic 
 {
-  width: 23px;
+     width: 23px;
+    padding-bottom: 6px !important;
 }
 .border-bg 
 {
@@ -3423,14 +3423,16 @@ width: 24px !important;
 }
 .icon-card-c
 {
-     border-radius: 50%;
-    font-size: 13px;
+    border-radius: 20px;
+    font-size: 9px;
     background: #dc3545;
-    height: 17px;
-    width: 18px;
+    height: 16px;
+    width: 10px;
     color: white;
     /* display: flex; */
-    padding: 2px 14px;
+    /* padding: 2px 14px; */
+    padding-top: 3px;
+    padding-right: 10px;
 }
 .pdlr {
   padding-left: 2px !important;
@@ -3558,4 +3560,170 @@ width: 100%;
 .clr-b 
 {
   color: black !important;
+}
+.img-wid-ho
+{
+      width: 64%;
+}
+.cls-p-covid
+{
+  font-size: 12px;
+    margin-bottom: 0px;
+}
+.card-home-co
+{
+ padding: 10px;
+    border-radius: 10px !important;
+    box-shadow: 0 11px 13px rgb(0 0 0 / 8%) !important;
+    border: 1px solid #3440a529 !important;
+    background: rgb(0 123 255 / 18%) !important;
+}
+.wrong-cls
+{
+  color: #dc3545;
+    font-size: 14px;
+}
+.cards-date-a
+{
+    /* border: 1px solid rgb(0 123 255 / 50%) !important; */
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.card-for-lab
+{
+      padding: 11px;
+    box-shadow: 3px 2px 6px 2px rgb(0 0 0 / 15%);
+    box-shadow: 3px 2px 10px -3px rgb(0 0 0 / 17%);
+    border: navajowhite;
+    box-shadow: 3px 2px 6px 2px rgb(0 0 0 / 20%);
+    text-transform: capitalize;
+}
+.h5-aster
+{
+    font-size: 16px;
+}
+.distance-p
+{
+    font-size: 14px;
+    color: #0000009e;
+    margin-bottom: 0px;
+}
+.details-p
+{
+    color: #09246a;
+    font-size: 13px;
+}
+.cost-p
+{
+    border-bottom: 1px solid #0000002b;
+    padding-bottom: 11px;
+    margin-bottom: 0px;
+}
+.card-time 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    padding: 8px;
+    border: 1px solid #08256b;
+    border-radius: 3px;
+}
+.card-time p 
+{
+  font-size: 12px;
+    /* display: flex; */
+    margin-bottom: 0px;
+}
+
+.main-slot-car
+{
+      justify-content: space-evenly;
+      display:flex;
+      flex-wrap: wrap;
+}
+.cards-date-a a{
+  padding: 0px  !important;
+}
+.class-for-bg
+{
+      background: #09266b;
+}
+.cards-date-a p
+{
+    color: black;
+    font-size: 12px;
+}
+.view-pic
+{
+    width: 77px;
+    border-radius: 50%;
+}
+.view-pc 
+{
+      width: 26px;
+    background: #08266b;
+    padding: 0px;
+    border-radius: 27px;
+    position: relative;
+    top: -38px;
+    left: 56%;
+    height: 26px;
+}
+.view-pc i 
+{
+  color: white;
+  font-size: 13px;
+}
+.view-pr-pi
+{
+    padding-left: 21px;
+}
+.name-eg
+{
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #092169;
+}
+.view-pr-pi div h6
+{
+    font-size: 14px;
+    border-bottom: 1px solid #0000003d;
+    padding-bottom: 4px;
+    width: 82%;
+
+}
+.edit-bu
+{
+      border: none;
+    background: #dc3545;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 14px;
+    /* height: 25px; */
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.img-40-dctor
+{
+      position: absolute;
+    width: 32%;
+    top: 7px;
+    left: 213px;
+}
+.background-know
+{
+      background: linear-gradient( 105.21deg ,#3743ab 2.85%,#141b56 99.41%);
+    height: 142px;
+}
+.class-f-h6
+{
+      padding-top: 38px;
+    color: white;
+}
+.card-img-a a
+{
+ font-size: 12px;
+    color: black;
+    text-align: center;
 }

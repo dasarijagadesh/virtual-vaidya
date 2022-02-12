@@ -9,9 +9,11 @@ include "includes/header.php";
                     <i class="fas fa-chevron-left"></i>
                     <p class="pl-2">Records</p>
                 </a>
-                <div class="position-record">
-                    <img class="pro-pic-record" src="assets/images copy/propic.png" alt="">
-                    <p>Jagadish</p>
+                <div class="position-record text-center">
+                    <a href="view-profile.php">
+                        <img class="pro-pic-record" src="assets/images copy/user (1).png" alt="">
+                        <p>Jagadeesh</p>
+                    </a>
                 </div>
 
             </div>

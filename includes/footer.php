@@ -210,6 +210,47 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></scri
 
     });
     </script>
+
+    <script>
+    $('.dates').owlCarousel({
+
+
+        margin: 10,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 3
+            },
+            600: {
+                items: 6
+            },
+            1000: {
+                items: 8
+            }
+        }
+    });
+    </script>
+    <script>
+    $('.consult-home').owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 4
+            },
+            600: {
+                items: 8
+            },
+            1000: {
+                items: 8
+            }
+        }
+    })
+    </script>
+
 </footer>
 </body>
 

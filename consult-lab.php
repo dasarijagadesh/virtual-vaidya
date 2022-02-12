@@ -115,7 +115,7 @@ include "includes/header.php";
 
                     </div>
                     <div class="but-on">
-                        <button>Select Lab</button>
+                        <a href="lab.php"><button>Select Lab</button></a>
                     </div>
                 </div>
             </div>

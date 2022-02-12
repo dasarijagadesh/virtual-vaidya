@@ -16,21 +16,21 @@ include "includes/header.php";
 
             </div> -->
         </div>
-        <div class="row background">
-
+        <div class="row background-know">
             <div class="col-12">
                 <div class="d-flex">
-
-                    <h6 class="d-flex align-items-center">Advanced surgical care from India's top doctors fpr
-                        elective
-                        surgeries </h6>
-
-
-
-                    <img src="assets/images copy/doctor-ki.png" alt="" class="img-50-dctor">
+                    <div>
+                        <h6 class="d-flex align-items-center class-f-h6">Advanced surgical care <br> from India's top
+                            doctors for
+                            <br> elective
+                            surgeries
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images copy/doctor-ki.png" alt="" class="img-40-dctor">
+                    </div>
                 </div>
             </div>
-
         </div>
         <div class="row">
             <div class="col-md-6 mt-2 mb-2 know-more-p">
@@ -73,31 +73,22 @@ include "includes/header.php";
                                         </div>
                                         <div>
                                             <a href="consult-doctor.php">Piles</a>
-
-
                                         </div>
-
                                     </div>
                                     <div class="col-4 column-p">
                                         <div class=border-ri>
                                             <img src="assets/images copy/hernia.png" alt="">
-
                                         </div>
                                         <div>
                                             <a href="consult-doctor.php">Hernia</a>
-
                                         </div>
-
-
                                     </div>
                                     <div class="col-4 column-p">
                                         <div class=border-ri>
                                             <img src="assets/images copy/pregency1.png" alt="">
-
                                         </div>
                                         <div>
                                             <a href="consult-doctor.php">Anal Fissure </a>
-
                                         </div>
 
                                     </div>

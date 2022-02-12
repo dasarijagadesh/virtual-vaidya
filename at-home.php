@@ -495,9 +495,297 @@ include "includes/header.php";
 
             </div>
         </div>
+
     </section>
     <section class="mt-2 mb-2">
         <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- /////////////////// -->
+                    <div class="">
+                        <h4>Surgeries we provide</h4>
+                        <div class="tabs a-clr-tab text-center">
+                            <div class="tab">
+                                <input type="radio" id="rd1" name="rd">
+                                <label class="tab-label" for="rd1">General Srugery</label>
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/piles.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Piles</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/hernia.png" alt="">
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Hernia</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Anal Fissure </a>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/stomach (1).png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Gall stones</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Circumcision</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/kidney.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Kidney Stones</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Varicose Veins</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Appendicitis</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Lipoma Removal</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Pilonidal Sinus</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Varicose Veins</a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="radio" id="rd2" name="rd">
+                                <label class="tab-label" for="rd2">Urology</label>
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">TURP</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/kidney.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Kidney stone</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="radio" id="rd3" name="rd">
+                                <label class="tab-label" for="rd3">Gynaecology</label>
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Viginal cyst</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Hysterectomy</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Gynaecomastia</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Myomectomy</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Viginoplasty</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Labiaplasty</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/pregency1.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Ovarian cyst</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="radio" id="rd4" name="rd">
+                                <label class="tab-label" for="rd4">Ophthalmology</label>
+                                <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/eye.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Cataract</a>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-4 column-p">
+                                            <div class=border-ri>
+                                                <img src="assets/images copy/eye.png" alt="">
+
+                                            </div>
+                                            <div>
+                                                <a href="consult-doctor.php">Lasik</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="radio" id="rd3" name="rd">
+                                <label for="rd3" class="tab-close">Close others &times;</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //////////////////////// -->
+
+                </div>
+
+            </div>
             <div class="row">
                 <div class="col-12">
                     <h4>Happy Customers</h4>
