@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2 d-flex justify-content-between medical-pii">
                 <a href="records.php" class="d-flex">

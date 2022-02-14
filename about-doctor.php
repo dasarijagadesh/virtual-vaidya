@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-3 d-flex pt-2">
                 <a href="consult-doctor.php" class="d-flex">

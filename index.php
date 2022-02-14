@@ -3,70 +3,40 @@ include "includes/header.php";
 ?>
 
 
-<div class="container padding-tops">
+<div class="container ">
     <div class="row">
-        <div class="col-md-12 d-flex card-mainh mt-4 mb-2">
-            <div class="pr-2">
-                <h4 class="d-flex">
-                    <?php echo ucwords("patient"); ?> <span class="pl-2"> Care</span>
-                </h4>
-                <P>Surgaries</P>
-                <h6>
-                    You are safe in hands
-                </h6>
-                <p>
-                    Choose the expert in end to end
 
-                </p>
-                <div class="pt-2">
-                    <a href="know- more.php"> <button class="button-know">Know more</button>
-                    </a>
-                </div>
-
-            </div>
-            <div><img src="Assets/images copy/do.jpg" alt="" class="img-doctor"></div>
-
-
-        </div>
     </div>
 </div>
 <section>
-    <div class="container mt-2 mb-2">
-        <div class="row">
+    <div class="container-fluid mt-2 mb-2 padding-tops">
+        <div class="row justify-content-between">
+            <div class="col-md-6 d-flex align-items-center card-mainh mt-4 mb-2">
+                <div class="pr-2">
+                    <h4 class="d-flex">
+                        <?php echo ucwords("patient"); ?> <span class="pl-2"> Care</span>
+                    </h4>
+                    <P>Surgaries</P>
+                    <h6>
+                        You are safe in hands
+                    </h6>
+                    <p>
+                        Choose the expert in end to end
 
-            <!-- <div class="col-md-6">
-                <h4>Our Offerings</h4>
-                <div class="d-flex mt-2 mb-2">
-
-                    <div class="card card-offers">
-                        <img src="Assets/images copy/doctor7.jpg" alt="">
-                        <div>
-                            <a href="my-consultations.php" class="a-h">
-                                <h6>Find Doctor Near You</h6>
-                            </a>
-
-
-                            <p>
-                                Confirmed Appointments
-                            </p>
-                        </div>
+                    </p>
+                    <div class="pt-2">
+                        <a href="know- more.php"> <button class="button-know">Know more</button>
+                        </a>
                     </div>
-                    <div class="card card-offers">
-                        <img src="Assets/images copy/doctor8.jpg" alt="">
-                        <div>
-                            <h6>Instant Video Consulation</h6>
-                            <p>
-                                Connect with in 60 sec
-                            </p>
 
-                        </div>
-                    </div>
                 </div>
-            </div> -->
-            <div class="col-md-6">
+                <div><img src="Assets/images copy/do.jpg" alt="" class="img-doctor"></div>
+            </div>
+
+            <div class="col-md-6 pb-2">
                 <h4 class="">Our Offerings</h4>
 
-                <div class="d-flex mt-4 ">
+                <div class="d-flex justify-content-around mt-4 ">
 
                     <div class="card card-offers">
                         <a href="consult-now.php"><img src="Assets/images copy/doctor7.jpg" alt="" class="w-100">
@@ -110,19 +80,17 @@ include "includes/header.php";
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col col-padding-tp mt-4 mb-2">
+            <div class="col-md-12 col-padding-tp mt-4 mb-2">
                 <h5>Consult From Home</h5>
-                <div class="d-flex  justify-content-between">
+                <div class="d-flex  justify-content-between button-pc">
                     <p>Common Symptoms</p>
-                    <a href="consult-now.php"><button>Search</button></a>
+                    <a href="covid-care.php"> <button>Search</button></a>
                 </div>
 
                 <!-- ////////slider/////////////// -->
 
                 <div>
-
-
-                    <div class=" consult-home owl-carousel owl-theme">
+                    <div class=" consult-home owl-carousel owl-theme ">
                         <div class="item">
                             <div class="card card-img-a pt-2 pb-2">
                                 <div>
@@ -280,10 +248,12 @@ include "includes/header.php";
         </div>
 </section>
 <section>
-    <div class="container mt-2 mb-2">
+    <div class="container-fluid mt-2 mb-2">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h5>Specilist Trained For Video Consultation</h5>
+            </div>
+            <div class="col-md-6 ">
                 <div class="card-speci d-flex">
                     <div class="card card-s">
                         <a href="home-main-doctor2.php">
@@ -336,7 +306,6 @@ include "includes/header.php";
                 </div>
             </div>
             <div class="col-md-6">
-
                 <div class="card-speci d-flex">
 
                     <div class="card card-s">
@@ -390,11 +359,13 @@ include "includes/header.php";
 
 </section>
 <section>
-    <div class="container mt-2 mb-2">
+    <div class="container-fluid mt-2 mb-2">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12 ">
                 <h4 class="mt-2 mb-4">My Doctors</h4>
-                <div class="card card-consultations mt-2 ">
+            </div>
+            <div class=" col-md-6  mt-2 ">
+                <div class="card card-consultations">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
                         <p class="pending-completed">Case pending</p>
@@ -415,15 +386,17 @@ include "includes/header.php";
                     <div class="join-chat">
                         <button><a href=""> Join Chat</a></button>
                     </div>
-
                 </div>
-                <div class="card card-consultations mt-4">
+
+            </div>
+            <div class=" col-md-6  mt-2 ">
+                <div class="card card-consultations">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
                         <p class="pending-case">Case pending</p>
                     </div>
                     <div class="d-flex img-ng ">
-                        <img class="fever-img" src="assets/images copy/doctor-3.jpg." alt="">
+                        <img class="fever-img" src="assets/images copy/gyna.jpg." alt="">
                         <div class="total-p">
                             <div class="d-flex justify-space-between name-time">
                                 <p>Dr. Madhu Priya</p>
@@ -438,12 +411,14 @@ include "includes/header.php";
                     <div class="join-chat">
                         <button><a href=""> Join Chat</a></button>
                     </div>
-
                 </div>
-                <div class="card card-consultations mt-4 ">
+
+            </div>
+            <div class=" col-md-6  mt-2 ">
+                <div class="card card-consultations">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
-                        <p class="pending-completed">Case pending</p>
+                        <p class="pending-completed">completed</p>
                     </div>
                     <div class="d-flex img-ng ">
                         <img class="fever-img" src="assets/images copy/gyna.jpg." alt="">
@@ -461,14 +436,40 @@ include "includes/header.php";
                     <div class="join-chat">
                         <button><a href=""> Join Chat</a></button>
                     </div>
-
                 </div>
+
             </div>
+            <div class=" col-md-6  mt-2 ">
+                <div class="card card-consultations">
+                    <div class="d-flex fever-case">
+                        <h6>Jagadish fever</h6>
+                        <p class="pending-case">Case pending</p>
+                    </div>
+                    <div class="d-flex img-ng ">
+                        <img class="fever-img" src="assets/images copy/gyna.jpg." alt="">
+                        <div class="total-p">
+                            <div class="d-flex justify-space-between name-time">
+                                <p>Dr. Madhu Priya</p>
+                            </div>
+
+                            <p class="specilization">General practitioner</p>
+                        </div>
+                        <div>
+                            <p class="time-clr-f">34min</p>
+                        </div>
+                    </div>
+                    <div class="join-chat">
+                        <button><a href=""> Join Chat</a></button>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </section>
 <section class="mt-4 mb-4">
-    <div class="container ">
+    <div class="container-fluid ">
         <div class="row">
             <div class="col">
                 <div class="card card-covid ">
@@ -495,27 +496,16 @@ include "includes/header.php";
 </section>
 
 <section>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
 
             <div class="col mt-2">
                 <h5>Curated Health Checkups And Screening Tests</h5>
                 <p class="color-pn">Free home sample pickup and reports from certified labs</p>
 
-                <div class="d-flex text-center issues-d mt-2">
-                    <!-- <div class="col-3">
-                            <div class=border-ri>
-                                <img src="../assets/images copy/pregency1.png" alt="">
+                <div class=" col-md-12 d-flex flex-wrap text-center issues-d mt-2">
 
-                            </div>
-                            <div>
-                                <a href="">Diabetes</a>
-
-                            </div>
-
-
-                        </div> -->
-                    <div class="col-4 column-p">
+                    <div class="cance-mk column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/ribbon.png" alt="">
@@ -528,7 +518,7 @@ include "includes/header.php";
                             </div>
                         </a>
                     </div>
-                    <div class="col-4 column-p">
+                    <div class="cance-mk column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/stress1.png" alt="">
@@ -541,7 +531,7 @@ include "includes/header.php";
                         </a>
 
                     </div>
-                    <div class="col-4 column-p">
+                    <div class="cance-mk column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/fracture.png" alt="">
@@ -553,9 +543,9 @@ include "includes/header.php";
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="d-flex text-center issues-d mt-2">
-                    <div class="col-4 column-p">
+
+
+                    <div class="cance-mk column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/diabetes.png" alt="">
@@ -565,7 +555,7 @@ include "includes/header.php";
                             </div>
                         </a>
                     </div>
-                    <div class="col-4 column-p">
+                    <div class="cance-mk column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/bisexual.png" alt="">
@@ -575,7 +565,7 @@ include "includes/header.php";
                             </div>
                         </a>
                     </div>
-                    <div class="col-4 column-p">
+                    <div class="cance-mk column-p">
                         <a href="offer-sub-home1.php">
                             <div class=border-ri>
                                 <img src="assets/images copy/stress1.png" alt="">
@@ -586,6 +576,7 @@ include "includes/header.php";
                         </a>
                     </div>
                 </div>
+
                 <div class="text-center">
                     <a href="at-home.php"> <button class="mt-4 mb-2 view-alls"> View All Symptoms
                         </button></a>
@@ -626,9 +617,9 @@ include "includes/header.php";
     </div>
 </section>
 <section>
-    <div class="container padding-last-sec">
+    <div class="container-fluid padding-last-sec">
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-12">
 
                 <h5>Full Body Check</h5>
                 <div class="d-flex  justify-content-between button-pc">
@@ -636,63 +627,73 @@ include "includes/header.php";
                     <a href="covid-care.php"> <button>view all</button></a>
                 </div>
             </div>
-            <div class="col-6 padding-offer-le mt-2 mb-2">
-                <div class="card card-offer-tast">
-                    <a href="offer-sub.php">
-                        <p>
-                            72+ TESTS
-                        </p>
-                        <h6>
-                            Vital body check <i class="fas fa-chevron-right pl-2"></i>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6 padding-offer-le mt-2 mb-2">
+                        <div class="card card-offer-tast">
+                            <a href="offer-sub.php">
+                                <p>
+                                    72+ TESTS
+                                </p>
+                                <h6>
+                                    Vital body check <i class="fas fa-chevron-right pl-2"></i>
 
-                        </h6>
-                        <button>799 <del>2499</del></button>
-                    </a>
+                                </h6>
+                                <button>799 <del>2499</del></button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 padding-offer-le mt-2 mb-2">
+                        <div class="card test-color card-offer-tast ">
+                            <a href="offer-sub.php">
+                                <p>
+                                    72+ TESTS
+                                </p>
+                                <h6>
+                                    Vital body check <i class="fas fa-chevron-right pl-2"></i>
+
+                                </h6>
+                                <button>799 <del>2499</del></button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-6 padding-offer-le mt-2 mb-2">
-                <div class="card test-color card-offer-tast ">
-                    <a href="offer-sub.php">
-                        <p>
-                            72+ TESTS
-                        </p>
-                        <h6>
-                            Vital body check <i class="fas fa-chevron-right pl-2"></i>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6 padding-offer-le mt-2 mb-2">
+                        <div class="card test-color card-offer-tast ">
+                            <a href="offer-sub.php">
+                                <p>
+                                    72+ TESTS
+                                </p>
+                                <h6>
+                                    Vital body check <i class="fas fa-chevron-right pl-2"></i>
 
-                        </h6>
-                        <button>799 <del>2499</del></button>
-                    </a>
+                                </h6>
+                                <button>799 <del>2499</del></button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 padding-offer-le mt-2 mb-2">
+                        <div class="card card-offer-tast">
+                            <a href="offer-sub.php">
+                                <p>
+                                    72+ TESTS
+                                </p>
+                                <h6>
+                                    Vital body check <i class="fas fa-chevron-right pl-2"></i>
+
+                                </h6>
+                                <button>799 <del>2499</del></button>
+                            </a>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-6 padding-offer-le mt-2 mb-2">
-                <div class="card test-color card-offer-tast ">
-                    <a href="offer-sub.php">
-                        <p>
-                            72+ TESTS
-                        </p>
-                        <h6>
-                            Vital body check <i class="fas fa-chevron-right pl-2"></i>
 
-                        </h6>
-                        <button>799 <del>2499</del></button>
-                    </a>
-                </div>
-            </div>
-            <div class="col-6 padding-offer-le mt-2 mb-2">
-                <div class="card card-offer-tast">
-                    <a href="offer-sub.php">
-                        <p>
-                            72+ TESTS
-                        </p>
-                        <h6>
-                            Vital body check <i class="fas fa-chevron-right pl-2"></i>
 
-                        </h6>
-                        <button>799 <del>2499</del></button>
-                    </a>
-
-                </div>
-            </div>
         </div>
     </div>
 </section>

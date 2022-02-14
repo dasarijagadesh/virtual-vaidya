@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container mt-2 mb-2">
+    <div class="container-fluid mt-2 mb-2">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2">
                 <a href="settings.php" class="d-flex">

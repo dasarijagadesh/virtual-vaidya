@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container mt-2 mb-2">
+    <div class="container-fluid mt-2 mb-2">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2">
                 <a href="index.php" class="d-flex">
@@ -42,6 +42,10 @@ include "includes/header.php";
                     </div>
 
                 </div>
+            </div>
+            <div class="col-md-6">
+
+
                 <div class="card card-consultations mt-4">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
@@ -65,6 +69,8 @@ include "includes/header.php";
                     </div>
 
                 </div>
+            </div>
+            <div class="col-md-6">
                 <div class="card card-consultations mt-4 ">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
@@ -89,7 +95,9 @@ include "includes/header.php";
 
                 </div>
             </div>
+
         </div>
+    </div>
     </div>
 </section>
 <?php

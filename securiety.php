@@ -16,7 +16,7 @@ include "includes/header.php";
 
             </div> -->
         </div>
-        <div class="row">
+        <div class="row justify-content-around">
             <div class="col-md-12">
                 <h4>Password & Security</h4>
             </div>
@@ -39,7 +39,7 @@ include "includes/header.php";
                 </div>
             </div>
         </div>
-        <div class="row mt-4">
+        <div class="row justify-content-around mt-4">
             <div class="col-md-6">
                 <div class="card card-enter-otp">
                     <div class="d-flex justify-content-between">

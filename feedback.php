@@ -19,12 +19,13 @@ include "includes/header.php";
         <div class="row">
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Feedback Queries</a>
+                        <a href="help-content.php">Feedback Queries</a></a>
                 </div>
             </div>
-          
+
 
 
 

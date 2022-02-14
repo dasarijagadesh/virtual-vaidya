@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2">
                 <a href="index.php" class="d-flex">
@@ -18,21 +18,21 @@ include "includes/header.php";
         </div>
         <div class="row background-know">
             <div class="col-12">
-                <div class="d-flex">
-                    <div>
+                <div class="row">
+                    <div class="col-7">
                         <h6 class="d-flex align-items-center class-f-h6">Advanced surgical care <br> from India's top
                             doctors for
                             <br> elective
                             surgeries
                         </h6>
                     </div>
-                    <div>
+                    <div class="col-5 text-center">
                         <img src="assets/images copy/doctor-ki.png" alt="" class="img-40-dctor">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-md-6 mt-2 mb-2 know-more-p">
                 <h4>
                     Why choose us ?
@@ -54,8 +54,6 @@ include "includes/header.php";
                     <p>Financial Aid & Assistance</p>
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-6">
                 <!-- /////////////////// -->
                 <div class="">
@@ -340,72 +338,77 @@ include "includes/header.php";
                 <!-- //////////////////////// -->
 
             </div>
+        </div>
+        <div class="row">
+
 
         </div>
         <div class="row mt-2 mb-2">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h4 class="mt-2 mb-2">Why Virtual Vaidya</h4>
-                <div>
-                    <div class="d-flex">
-                        <i class="fas fa-user pr-2 icon-know"></i>
-                        <p>Expert surgeons with 10+ years of experience</p>
-                    </div>
-                    <p class="justify-p">We have the finest and some of the most qualified surgical specialists, each
-                        with 10+ years of
-                        experience, who will consult with you to determine and conduct the most appropriate surgical
-                        procedure for your condition.</p>
+            </div>
 
+            <div class="col-md-6">
+                <div class="d-flex">
+                    <i class="fas fa-user pr-2 icon-know"></i>
+                    <p>Expert surgeons with 10+ years of experience</p>
                 </div>
-                <div>
-                    <div class="d-flex">
-                        <i class="fas fa-notes-medical pr-2   icon-know"></i>
-                        <p>Advanced Surgical Technologies</p>
-                    </div>
-                    <p class="justify-p">
-                        You can expect the highest standards in surgeries and care with our cutting-edge modern medical
-                        technology, designed to provide you the most advanced level of medical care.
-                    </p>
-                </div>
-                <div>
-                    <div class="d-flex">
-                        <i class="fas fa-handshake pr-2  icon-know"></i>
-                        <p>Personal Care Assistants</p>
-                    </div>
-                    <p class="justify-p">A dedicated assistant will take care of your needs from your very first
-                        interaction with us
-                        through to the end of your treatment. They will be with you at every step of your
-                        journey—booking consultations with surgeons, getting a second opinion, finding the best hospital
-                        for your surgery, arranging medicines and lab tests, handling the insurance approvals, and
-                        coordinating admission and discharge formalities.</p>
-                </div>
-                <div>
-                    <div class="d-flex">
-                        <i class="fas fa-money-check-alt  icon-know"></i>
-                        <p>Financial Aid & Assistance</p>
-                    </div>
-                    <p class="justify-p">
-                        We provide our customers with the highest level of satisfaction by ensuring 100%
-                        transparency in pricing. We offer the finest surgical experiences at competitive prices—with
-                        flexible payment options, no-cost EMI options, discounted medicines and lab tests, and
-                        support for a wide range of insurance policies.
-                    </p>
-
-                </div>
-                <div>
-                    <div class="d-flex">
-
-                        <i class="fas fa-hand-holding-medical icon-know"></i>
-                        <p>Postoperative Care</p>
-                    </div>
-                    <p class="justify-p">
-                        Our personal care assistants will continue to stay in touch with you, even after the
-                        procedure, to book free followup consultations with your doctor as per your convenience. You
-                        will also receive dietary tips and instructions for your speedy recovery.
-                    </p>
-
-                </div>
+                <p class="justify-p">We have the finest and some of the most qualified surgical specialists, each
+                    with 10+ years of
+                    experience, who will consult with you to determine and conduct the most appropriate surgical
+                    procedure for your condition.</p>
 
             </div>
+            <div class="col-md-6">
+                <div class="d-flex">
+                    <i class="fas fa-notes-medical pr-2   icon-know"></i>
+                    <p>Advanced Surgical Technologies</p>
+                </div>
+                <p class="justify-p">
+                    You can expect the highest standards in surgeries and care with our cutting-edge modern medical
+                    technology, designed to provide you the most advanced level of medical care.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex">
+                    <i class="fas fa-handshake pr-2  icon-know"></i>
+                    <p>Personal Care Assistants</p>
+                </div>
+                <p class="justify-p">A dedicated assistant will take care of your needs from your very first
+                    interaction with us
+                    through to the end of your treatment. They will be with you at every step of your
+                    journey—booking consultations with surgeons, getting a second opinion, finding the best hospital
+                    for your surgery, arranging medicines and lab tests, handling the insurance approvals, and
+                    coordinating admission and discharge formalities.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex">
+                    <i class="fas fa-money-check-alt  icon-know"></i>
+                    <p>Financial Aid & Assistance</p>
+                </div>
+                <p class="justify-p">
+                    We provide our customers with the highest level of satisfaction by ensuring 100%
+                    transparency in pricing. We offer the finest surgical experiences at competitive prices—with
+                    flexible payment options, no-cost EMI options, discounted medicines and lab tests, and
+                    support for a wide range of insurance policies.
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex">
+
+                    <i class="fas fa-hand-holding-medical icon-know"></i>
+                    <p>Postoperative Care</p>
+                </div>
+                <p class="justify-p">
+                    Our personal care assistants will continue to stay in touch with you, even after the
+                    procedure, to book free followup consultations with your doctor as per your convenience. You
+                    will also receive dietary tips and instructions for your speedy recovery.
+                </p>
+
+            </div>
+
+
         </div>
         <div class="row mt-2 mb-2 ">
             <div class="col mt-2 mb-2">
@@ -435,8 +438,7 @@ include "includes/header.php";
                     <p class="description">
                         "Thanks to Virtual Care, I could focus on my recovery while the team took care of all the
                         paperwork, logistics and financial support. The doctor was good and clearly explained the issue
-                        and treatment. After that, from consultation to discharge, everything was handled smoothly by
-                        Practo Care.
+                        and treatment. After that, from consultation to discharge,
                     </p>
                     <h3 class="title">Pearl</h3>
                     <small class="post">- Engineer </small>

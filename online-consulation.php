@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-online">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2">
                 <a href="help.php" class="d-flex">
@@ -19,58 +19,73 @@ include "includes/header.php";
         <div class="row">
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Guide to Consult</a>
+                        <a href="help-content.php">Guide to Consult</a>
+                    </a>
                 </div>
             </div>
             <div class="col-6 mt-2 -b-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Consultation on Virtual app</a>
+                        <a href="help-content.php">Consultation on Virtual app</a>
+                    </a>
                 </div>
             </div>
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">I need assistance on Consultation Booked</a>
+                        <a href="help-content.php">I need assistance on Consultation Booked</a>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 mt-2 mb-2 padding-card-book">
+                <div class="card card-appointment"> <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
+
+                        <a href="help-content.php">Doctor not replying</a>
+                    </a>
                 </div>
             </div>
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Doctor not replying</a>
+                        <a href="help-content.php">Prescrption related issues</a>
+                    </a>
                 </div>
             </div>
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Prescrption related issues</a>
+                        <a href="help-content.php">Doctor related issues</a>
+                    </a>
                 </div>
             </div>
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Doctor related issues</a>
+                        <a href="help-content.php">Payments, Coopons & Discount</a>
+                    </a>
                 </div>
             </div>
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Payments, Coopons & Discount</a>
-                </div>
-            </div>
-            <div class="col-6 mt-2 mb-2 padding-card-book">
-                <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
-
-                    <a href="">Issues with chat</a>
+                        <a href="help-content.php">Issues with chat</a>
+                    </a>
                 </div>
             </div>
         </div>

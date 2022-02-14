@@ -14,21 +14,8 @@ include "includes/header.php";
                 <p> My consultations</p>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col-12">
-
-                <div class="d-flex main-searchdoctor ">
-                    <i class="fas fa-search pl-2"></i>
-                    <input type="text" placeholder="search your location" class="pl-2">
-                </div>
-            </div>
-
-        </div> -->
         <div class="row">
-            <!-- <div class="col-12 mt-2">
-                <h6>Showing earlist available doctors</h6>
-            </div> -->
-            <div class="col-md-6 doctor-cardcon ">
+            <div class="col-md-6  doctor-cardcon ">
                 <div class="row ">
                     <div class="col-5">
                         <div>
@@ -54,8 +41,8 @@ include "includes/header.php";
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 doctor-cardcon ">
-                <div class="row ">
+            <div class="col-md-6 doctor-cardcon  ">
+                <div class="row  ">
                     <div class="col-5">
                         <div>
                             <img src="assets/images copy/doctor7.jpg" alt="" width="100%" class="img-doctors">

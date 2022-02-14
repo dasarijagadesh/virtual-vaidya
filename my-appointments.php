@@ -17,7 +17,7 @@ include "includes/header.php";
             </div> -->
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-md-12">
                 <h4>
                     Upcoming Appointments
                 </h4>

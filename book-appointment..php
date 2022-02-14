@@ -19,30 +19,34 @@ include "includes/header.php";
         <div class="row">
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Guide to Book in-clinic Appointment</a>
+                        <a href="help-content.php">Guide to Book in-clinic Appointment</a></a>
                 </div>
             </div>
             <div class="col-6 mt-2 -b-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/Conversation.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/Conversation.png" alt="">
 
-                    <a href="">General Query of Appointment</a>
+                        <a href="help-content.php">General Query of Appointment</a></a>
                 </div>
             </div>
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/check-up.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/check-up.png" alt="">
 
-                    <a href="">I need assistance on Appointment Booked</a>
+                        <a href="help-content.php">I need assistance on Appointment Booked</a></a>
                 </div>
             </div>
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/discount.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/discount.png" alt="">
 
-                    <a href="">Payment Offers & Discounts</a>
+                        <a href="help-content.php">Payment Offers & Discounts</a></a>
                 </div>
             </div>
         </div>
