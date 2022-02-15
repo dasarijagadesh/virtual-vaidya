@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-covid">
-    <div class="container mt-2 mb-2">
+    <div class="container-fluid mt-2 mb-2">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2">
                 <a href="index.php" class="d-flex">
@@ -17,10 +17,11 @@ include "includes/header.php";
             <div class="col-12 background">
                 <div class="d-flex justify-content-between">
                     <h6 class="d-flex align-items-center coivd-c">COVID-19 Care </h6>
+                    <img src="assets/images copy/prevention.png" alt="" class="img-50-dctor">
                 </div>
             </div>
             <div class="col-12">
-                <img src="assets/images copy/prevention.png" alt="" class="img-50-dctor">
+
             </div>
         </div>
         <!-- <div class="row">
@@ -48,7 +49,7 @@ include "includes/header.php";
             </div>
 
         </div> -->
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-12">
                 <h6 class="mt-4">COVID-19 identification & Prevention</h6>
             </div>
@@ -57,8 +58,8 @@ include "includes/header.php";
                 <div class="row">
                     <div class="col-9 mb-2">
                         <p class="clr-p-sapn">Get your <span class="span-pcr">PT-PCR Test</span> done</p>
-                        <div class="d-flex">
-                            <div class="d-flex">
+                        <div class="d-flex justify-content-around">
+                            <div class="d-flex align-items-center">
                                 <div class="img-oc">
                                     <img src="Assets/images copy/red-blood-cells.png" alt="" class="w-100">
                                 </div>
@@ -66,7 +67,7 @@ include "includes/header.php";
                                     <p>Cover upto 4 family members</p>
                                 </div>
                             </div>
-                            <div class="d-flex">
+                            <div class="d-flex align-items-center">
                                 <div class="img-oc">
                                     <img src="Assets/images copy/red-blood-cells.png" alt="" class="w-100">
                                 </div>
@@ -82,7 +83,7 @@ include "includes/header.php";
                         <img src="Assets/images copy/doc.png" alt="" class="img-co-care">
                     </div>
                 </div>
-                <div class="row back-wg">
+                <div class="row back-wg justify-content-center">
                     <div class="col-6 border-bg pdlr">
                         <a href="home-covid.php">
                             <div class="d-flex justify-content-around">
@@ -161,15 +162,15 @@ include "includes/header.php";
             <div class="col-12">
                 <h6 class="mt-4">Complete COVID care at home</h6>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="card card-cov-2">
                     <a href="offer-sub.php">
                         <div class="row">
                             <div class="col-9">
                                 <p class="clr-p-sapn">COVID-19 <span class="span-pcr">Home care</span> plan <i
                                         class="fas fa-chevron-right pl-2 icon-card-c"></i></p>
-                                <div class="d-flex">
-                                    <div class="d-flex">
+                                <div class="d-flex justify-content-around">
+                                    <div class="d-flex align-items-center">
                                         <div class="img-oc">
                                             <img src="Assets/images copy/red-blood-cells.png" alt="" class="w-100">
                                         </div>
@@ -177,7 +178,7 @@ include "includes/header.php";
                                             <p>Cover upto 4 family members</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex">
+                                    <div class="d-flex align-items-center">
                                         <div class="img-oc">
                                             <img src="Assets/images copy/red-blood-cells.png" alt="" class="w-100">
                                         </div>
@@ -199,19 +200,14 @@ include "includes/header.php";
 
         </div>
     </div>
-
 </section>
 <section>
-    <div class="container ">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <h5>For Other Health Concerns</h5>
             </div>
-            <div class="col-md-6">
-                <div class="col-6">
 
-                </div>
-            </div>
             <div class="col-6 padding-offer-le mt-2 mb-2">
                 <div class="card card-offer-tast">
                     <a href="offer-sub.php">

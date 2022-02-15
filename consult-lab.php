@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-3 d-flex pt-2">
                 <a href="covid-care.php" class="d-flex">
@@ -28,7 +28,7 @@ include "includes/header.php";
             <div class="col-12 mt-2">
                 <h6>Showing tests available </h6>
             </div>
-            <div class="col-md-6 mt-2 ">
+            <div class="col-md-6 col-sm-6 col-xs-6 mt-2 ">
                 <div class="d-flex border-btm">
                     <div class="parag-3">
                         <p>Complete Blood COunt Test (CBC)</p>
@@ -39,7 +39,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6 mt-2 ">
+            <div class="col-md-6 col-sm-6 col-xs-6 mt-2 ">
                 <div class="d-flex border-btm">
                     <div class="parag-3">
                         <p>Complete Blood COunt Test (CBC)</p>
@@ -50,7 +50,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6 mt-2 ">
+            <div class="col-md-6 col-sm-6 col-xs-6 mt-2 ">
                 <div class="d-flex border-btm">
                     <div class="parag-3">
                         <p>Complete Blood COunt Test (CBC)</p>
@@ -61,7 +61,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6 mt-2 ">
+            <div class="col-md-6 col-sm-6 col-xs-6 mt-2 ">
                 <div class="d-flex border-btm">
                     <div class="parag-3">
                         <p>Complete Blood COunt Test (CBC)</p>
@@ -72,7 +72,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6 mt-2 ">
+            <div class="col-md-6 col-sm-6 col-xs-6 mt-2 ">
                 <div class="d-flex border-btm">
                     <div class="parag-3">
                         <p>Complete Blood COunt Test (CBC)</p>
@@ -83,7 +83,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6 mt-2 ">
+            <div class="col-md-6 col-sm-6 col-xs-6 mt-2 ">
                 <div class="d-flex border-btm">
                     <div class="parag-3">
                         <p>Complete Blood COunt Test (CBC)</p>
@@ -94,7 +94,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6 mt-2 ">
+            <div class="col-md-6 col-sm-6 col-xs-6 mt-2 ">
                 <div class="d-flex border-btm">
                     <div class="parag-3">
                         <p>Complete Blood COunt Test (CBC)</p>

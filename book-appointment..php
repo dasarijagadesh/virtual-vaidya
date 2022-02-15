@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-tbs">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2">
                 <a href="help.php" class="d-flex">
@@ -16,6 +16,8 @@ include "includes/header.php";
 
             </div> -->
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">

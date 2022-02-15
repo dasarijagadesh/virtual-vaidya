@@ -64,6 +64,7 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></scri
 
 
     $('.time').owlCarousel({
+        stagePadding: 20,
         loop: true,
         loop: true,
         autoplay: true,
@@ -113,13 +114,13 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></scri
                 nav: false,
                 dots: false
             },
-            600: {
-                items: 6,
+            400: {
+                items: 4,
                 nav: false,
                 dots: false
             },
-            1000: {
-                items: 9,
+            600: {
+                items: 6,
                 nav: false,
                 loop: false,
                 dots: false
@@ -222,11 +223,11 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></scri
             0: {
                 items: 3
             },
+            400: {
+                items: 4
+            },
             600: {
                 items: 6
-            },
-            1000: {
-                items: 8
             }
         }
     });
@@ -246,6 +247,48 @@ https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></scri
             },
             500: {
                 items: 6
+            }
+
+        }
+    })
+    </script>
+    <script>
+    $('.frequently-booked').owlCarousel({
+        autoWidth: true,
+        loop: false,
+        margin: 10,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 4
+            },
+            400: {
+                items: 6
+            },
+            500: {
+                items: 7
+            }
+
+        }
+    })
+    </script>
+    <script>
+    $('.condition-based-test').owlCarousel({
+        autoWidth: true,
+        loop: false,
+        margin: 10,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 4
+            },
+            400: {
+                items: 6
+            },
+            500: {
+                items: 7
             }
 
         }

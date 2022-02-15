@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-online">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2">
                 <a href="help.php" class="d-flex">
@@ -16,19 +16,22 @@ include "includes/header.php";
 
             </div> -->
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                    <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Account Related Queries</a>
+                        <a href="help-content.php">Account Related Queries</a></a>
                 </div>
             </div>
             <div class="col-6 mt-2 -b-2 padding-card-book">
-                <div class="card card-appointment">
-                    <img src="assets/images copy/medical-a.png" alt="">
+                <div class="card card-appointment"> <a href="help-content.php">
+                        <img src="assets/images copy/medical-a.png" alt="">
 
-                    <a href="">Other Issues</a>
+                        <a href="help-content.php">Other Issues</a></a>
                 </div>
             </div>
 

@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-online">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2 justify-content-between">
                 <a href="index.php" class="d-flex">

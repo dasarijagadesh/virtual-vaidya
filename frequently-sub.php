@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-online">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2 justify-content-between">
                 <a href="at-home.php" class="d-flex">
@@ -26,8 +26,7 @@ include "includes/header.php";
             </div> -->
         </div>
         <div class="row mt-2 mb-2">
-            <div class="col-md-6 padding-sub-i">
-            </div>
+
             <div class="col-md-6 mt-2 mb-2">
                 <h4>Liver Test</h4>
                 <div class="d-flex align-centerdd pt-2">

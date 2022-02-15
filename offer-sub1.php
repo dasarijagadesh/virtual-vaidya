@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-online">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-12 d-flex pt-2 justify-content-between">
                 <a href="at-home.php" class="d-flex">
@@ -46,68 +46,6 @@ include "includes/header.php";
                     of 41-60, leading a hectic lifestyle with high work-stress, less time for exercise, irregular
                     sleeping and eating schedules. This health check is helpful in early detection of health problems
                     such as </p>
-            </div>
-            <div class="col-md-6">
-                <h4 class="mt-2 mb-2">Why book with us ?</h4>
-                <div>
-                    <div class="d-flex">
-                        <div>
-
-                            <i class="fas fa-user pr-2 icon-know"></i>
-                        </div>
-                        <div>
-                            <p>Home sample collection for FREE</p>
-                            <p class="justify-p">We have the finest and some of the most qualified surgical specialists,
-                                each
-                                with 10+ years of
-                                experience, who will consult with you to determine and conduct the most appropriate
-                                surgical
-                                procedure for your condition.</p>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div>
-                    <div class="d-flex">
-                        <div>
-                            <i class="fas fa-notes-medical pr-2   icon-know"></i>
-                        </div>
-                        <div>
-                            <p>Get digital report within 2 days</p>
-                            <p class="justify-p">
-                                You can expect the highest standards in surgeries and care with our cutting-edge modern
-                                medical
-                                technology, designed to provide you the most advanced level of medical care.
-                            </p>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div>
-                    <div class="d-flex">
-                        <div>
-                            <i class="fas fa-handshake pr-2  icon-know"></i>
-                        </div>
-                        <div>
-                            <p>Valuable doctor's consultation</p>
-                            <p class="justify-p">A dedicated assistant will take care of your needs from your very first
-                                interaction with us
-                                through to the end of your treatment. They will be with you at every step of your
-                                journey—booking consultations with surgeons, getting a second opinion, finding the best
-                                hospital
-                                for your surgery, arranging medicines and lab tests, handling the insurance approvals,
-                                and
-                                coordinating admission and discharge formalities.</p>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-6">
                 <div>
                     <h4>Includes 85 Tests</h4>
                     <div class=" accordian accordian-tss">
@@ -236,6 +174,66 @@ include "includes/header.php";
 
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4 class="mt-2 mb-2">Why book with us ?</h4>
+                <div>
+                    <div class="d-flex">
+                        <div>
+
+                            <i class="fas fa-user pr-2 icon-know"></i>
+                        </div>
+                        <div>
+                            <p>Home sample collection for FREE</p>
+                            <p class="justify-p">We have the finest and some of the most qualified surgical specialists,
+                                each
+                                with 10+ years of
+                                experience, who will consult with you to determine and conduct the most appropriate
+                                surgical
+                                procedure for your condition.</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div>
+                    <div class="d-flex">
+                        <div>
+                            <i class="fas fa-notes-medical pr-2   icon-know"></i>
+                        </div>
+                        <div>
+                            <p>Get digital report within 2 days</p>
+                            <p class="justify-p">
+                                You can expect the highest standards in surgeries and care with our cutting-edge modern
+                                medical
+                                technology, designed to provide you the most advanced level of medical care.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div>
+                    <div class="d-flex">
+                        <div>
+                            <i class="fas fa-handshake pr-2  icon-know"></i>
+                        </div>
+                        <div>
+                            <p>Valuable doctor's consultation</p>
+                            <p class="justify-p">A dedicated assistant will take care of your needs from your very first
+                                interaction with us
+                                through to the end of your treatment. They will be with you at every step of your
+                                journey—booking consultations with surgeons, getting a second opinion, finding the best
+                                hospital
+                                for your surgery, arranging medicines and lab tests, handling the insurance approvals,
+                                and
+                                coordinating admission and discharge formalities.</p>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>

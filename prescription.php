@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-3 d-flex pt-2">
                 <a href="records.php" class="d-flex">
@@ -17,7 +17,6 @@ include "includes/header.php";
         <div class="row">
             <div class="col-md-12 Presc-r">
                 <p> Doctor has not Prescribed any medicines yes</p>
-
 
             </div>
         </div>

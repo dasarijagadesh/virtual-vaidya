@@ -11,7 +11,7 @@ include "includes/header.php";
 <section>
     <div class="container-fluid mt-2 mb-2 padding-tops">
         <div class="row justify-content-between">
-            <div class="col-md-6 d-flex align-items-center card-mainh mt-4 mb-2">
+            <div class="col-md-6 d-flex align-items-center justify-content-between card-mainh mt-4 mb-2">
                 <div class="pr-2">
                     <h4 class="d-flex">
                         <?php echo ucwords("patient"); ?> <span class="pl-2"> Care</span>
@@ -36,7 +36,7 @@ include "includes/header.php";
             <div class="col-md-6 pb-2">
                 <h4 class="">Our Offerings</h4>
 
-                <div class="d-flex justify-content-around mt-4 ">
+                <div class="d-flex respons-card mt-4 ">
 
                     <div class="card card-offers">
                         <a href="consult-now.php"><img src="Assets/images copy/doctor7.jpg" alt="" class="w-100">
@@ -253,8 +253,8 @@ include "includes/header.php";
             <div class="col-md-12">
                 <h5>Specilist Trained For Video Consultation</h5>
             </div>
-            <div class="col-md-6 ">
-                <div class="card-speci d-flex">
+            <div class="col-md-12 ">
+                <div class="card-speci d-flex flex-wrap">
                     <div class="card card-s">
                         <a href="home-main-doctor2.php">
                             <div>
@@ -302,12 +302,6 @@ include "includes/header.php";
                             </div>
                         </a>
                     </div>
-
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card-speci d-flex">
-
                     <div class="card card-s">
                         <a href="home-main-doctor2.php">
                             <div>
@@ -351,9 +345,9 @@ include "includes/header.php";
                             </div>
                         </a>
                     </div>
-
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -364,7 +358,12 @@ include "includes/header.php";
             <div class="col-md-12 ">
                 <h4 class="mt-2 mb-4">My Doctors</h4>
             </div>
-            <div class=" col-md-6  mt-2 ">
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class=" col-md-6 col-xs-6 col-sm-6  mt-2 ">
                 <div class="card card-consultations">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
@@ -389,7 +388,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class=" col-md-6  mt-2 ">
+            <div class=" col-md-6 col-xs-6 col-sm-6  mt-2 ">
                 <div class="card card-consultations">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
@@ -414,7 +413,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class=" col-md-6  mt-2 ">
+            <div class=" col-md-6 col-xs-6 col-sm-6  mt-2 ">
                 <div class="card card-consultations">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
@@ -439,7 +438,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class=" col-md-6  mt-2 ">
+            <div class=" col-md-6 col-xs-6 col-sm-6  mt-2 ">
                 <div class="card card-consultations">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
@@ -694,6 +693,55 @@ include "includes/header.php";
             </div>
 
 
+        </div>
+        <div class="row mt-2 mb-2 ">
+            <div class="col mt-2 mb-2">
+                <h4 class="mt-2 mb-2">Testimonials</h4>
+            </div>
+
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <div class="pic">
+                        <img
+                            src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                    </div>
+                    <p class="description">
+                        I’d definitely recommend virtual Care for their support at every step of my pilonidal sinus
+                        treatment. The doctor was highly experienced and the surgery went well. The team took care of
+                        everything from day one to the day of discharge very efficiently.
+                    </p>
+                    <h3 class="title">Jessica</h3>
+                    <small class="post">- Archietect</small>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img
+                            src="https://images.pexels.com/photos/638700/pexels-photo-638700.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                    </div>
+                    <p class="description">
+                        "Thanks to Virtual Care, I could focus on my recovery while the team took care of all the
+                        paperwork, logistics and financial support. The doctor was good and clearly explained the issue
+                        and treatment. After that, from consultation to discharge,
+                    </p>
+                    <h3 class="title">Pearl</h3>
+                    <small class="post">- Engineer </small>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img
+                            src="https://images.pexels.com/photos/531139/pexels-photo-531139.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                    </div>
+                    <p class="description">
+                        "I contacted Virtual Care for my piles treatment. The doctor was very approachable and listed
+                        out the best options. After that, the insurance, coordination and other formalities were taken
+                        care of by the Practo Care team. Overall, a seamless experience.
+                    </p>
+                    <h3 class="title">Kellie</h3>
+                    <small class="post">- Graphic Designer</small>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -38,18 +38,12 @@ include "includes/header.php";
                     <li><a href="health-plan.php"> Health Plans</a>
                         <a href="health-plan.php"><i class="fas fa-chevron-right"></i></a>
                     </li>
-                    <li><a href=""> Insurance Plans </a>
-                        <a href=""><i class="fas fa-chevron-right"></i></a>
 
-                    </li>
                     <li><a href="my-account-drive.php"> My account and Virtual drive</a>
 
                         <a href="my-account-drive.php"><i class="fas fa-chevron-right"></i></a>
                     </li>
-                    <li><a href=""> Have a featurs in Mind</a>
-                        <a href=""><i class="fas fa-chevron-right"></i></a>
 
-                    </li>
                     <li><a href=""> Other Issues</a>
                         <a href=""><i class="fas fa-chevron-right"></i></a>
                     </li>

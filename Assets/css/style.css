@@ -422,9 +422,10 @@ transition: all .3s ease-in-out;
   }
   .card-s
   {
-    border: none !important;
+      border: none !important;
     padding: 6px !important;
     margin-bottom: 0.5rem;
+    width: 136px;
   }
   .card-s p{
       font-size: 12px;
@@ -753,11 +754,11 @@ padding: 0px !important;
     padding: 2px;
    }
    .card-offer-tast i{
-     background: #dc3545;
+    background: #dc3545;
     text-align: center;
-    border-radius: 54%;
+    border-radius: 50%;
     /* width: 15px; */
-    padding: 3px 8px;
+    padding: 9px 7px;
     color: white;
     font-size: 10px;
    }
@@ -982,17 +983,17 @@ a{
 }
 .doctor-cardcon
 {
-    border-radius: 11px !important;
+border-radius: 11px !important;
     /* padding: 1px; */
     margin-left: 0px;
     margin: 0px 4px;
     /* box-shadow: 0 15px 32px rgb(0 0 0 / 16%); */
     border: none !important;
     margin-top: 12px !important;
-    padding: 9px;
+    padding: 8px;
     box-shadow: 3px 2px 6px 2px rgb(0 0 0 / 20%);
-    width: 88% !important;
-    margin: 0px auto;
+    /* width: 88% !important; */
+    /* margin: 0px auto;*/
 }
 .img-doctors
 {
@@ -1709,11 +1710,11 @@ padding: 5px;
     border:none !important;
 }
 .background-carosel {
-   height: 75px;
+      height: 75px;
     /* background: #8080805e; */
     padding-top: 11px;
-    background-image: radial-gradient( circle 976px at 51.2% 51%, rgb(11 27 103 / 63%) 0%, rgb(16 66 157 / 64%) 0%, rgb(11 27 103 / 58%) 17.3%, rgb(11 27 103 / 38%) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
-    background: teal;
+    /* background-image: radial-gradient( circle 976px at 51.2% 51%, rgb(11 27 103 / 63%) 0%, rgb(16 66 157 / 64%) 0%, rgb(11 27 103 / 58%) 17.3%, rgb(11 27 103 / 38%) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% ); */
+    background: #09266b;
 }
 .today
 {
@@ -1725,7 +1726,7 @@ padding: 5px;
 }
 .card-time-pm
 {
-    border: 1px solid blue;
+    border: 1px solid #09266b;
     padding: 2px;
     border-radius: 3px;
     height: 31px;
@@ -1752,7 +1753,7 @@ padding: 5px;
 }
 .content-i i
 {
-     color: teal !important;
+  color: #dc3545 !important;
 }
 .content-i p
 {
@@ -1882,10 +1883,11 @@ border: 2px dotted green;
 }
 .img-50-dctor
 {
-position: absolute;
+/* position: absolute;
     width: 18%;
     top: -45px;
-    left: 217px;
+    left: 217px; */
+    width: 61px;
 }
 .background 
 {
@@ -1996,32 +1998,32 @@ h4
 }
 /* ////////testmonials////////////// */
 .testimonial {
- border-right: 4px solid #f9f871;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-  padding: 30px 30px 30px 130px;
-  margin: 0 15px 30px 15px;
-  overflow: hidden;
-  position: relative;
+    border-right: 4px solid #08256b;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+    padding: 30px 30px 30px 130px;
+    margin: 0 15px 30px 15px;
+    overflow: hidden;
+    position: relative;
 }
 .testimonial:before {
   content: "";
   position: absolute;
   bottom: -4px;
   left: -17px;
-  border-top: 25px solid #008080;
+  border-top: 25px solid #0a1f68;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   transform: rotate(45deg);
 }
 .testimonial:after {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: -17px;
-  border-top: 25px solid #008080;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  transform: rotate(135deg);
+content: "";
+    position: absolute;
+    top: -4px;
+    left: -17px;
+    border-top: 25px solid #0a1f68;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: rotate(135deg);
 }
 .testimonial .pic {
   display: inline-block;
@@ -2086,8 +2088,10 @@ h4
 /* //////////////////////////////// */
 .why
 {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 21px;
 }
 .why-choose-card
 {
@@ -2187,8 +2191,8 @@ h4
 }
 .upcoming-chatss  
 {
-      padding-right: 74px !important;
-    padding-left: 0px !important;
+      /* padding-right: 74px !important;
+    padding-left: 0px !important; */
 }
 .upcoming-cancel
 {
@@ -2224,6 +2228,7 @@ h4
     width: 131px;
     border-radius: 3px;
     letter-spacing: 0.5px;
+    width: 100%;
 }
 .time-evenly
 {
@@ -3504,7 +3509,10 @@ width: 100%;
   }
   .border-btm
   {
-        border-bottom: 1px solid #0000009e;
+     border-bottom: 1px solid #0000004d;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-bottom: 6px;
   }
   .button-remove {
        background: #dc3545;
@@ -3625,11 +3633,11 @@ width: 100%;
 }
 .card-time 
 {
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: center;
-    height: 34px;
-    padding: 8px;
+    height: 33px;
+    padding: 5px;
     border: 1px solid #08256b;
     border-radius: 3px;
 }
@@ -3724,7 +3732,7 @@ width: 100%;
 }
 .card-img-a a
 {
- font-size: 12px;
+font-size: 10px;
     color: black;
     text-align: center;
 }
@@ -3732,6 +3740,23 @@ width: 100%;
 {
   justify-content: space-around;
 }
+.form-bgr
+{
+  background: #dee2e626;
+    padding: 10px;
+    border-radius: 4px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    border: 3px solid #0b1b67 !important;
+    background-color: white !important;
+}
+.row-adjust
+{
+    margin: -9px !important;
+    padding-bottom: 47px;
+}
+
 /* ////////mobile-response///////// */
 @media (min-width: 468px)
 {
@@ -3745,24 +3770,41 @@ width: 100%;
     border-radius: 50%;
     width: 55%;
 }
+
 }
 @media (min-width: 552px)
 {
 .upcoming-appointment
 {
-
+/* 
            max-width: 53% !important;
-    margin: 0px auto;
+    margin: 0px auto; */
 } 
 .card-speci
 {
-  
-    width: 100%;
+      width: 100%;
 }
-
 }
-
+@media (min-width:768px)
+{
+.owl-carousel .owl-stage {
+  margin: 1px auto !important;
+}
+}
 @media screen and (min-device-width:327px) and (max-device-width: 380px)
 {
 
+}
+@media (min-width:415px)
+{
+  .img-oc img {
+    width: 18px !important;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    margin-left: 6px;
+}
+.response-card
+{
+  justify-content: center;
+}
 }

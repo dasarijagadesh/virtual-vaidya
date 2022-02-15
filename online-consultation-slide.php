@@ -16,6 +16,7 @@ include "includes/header.php";
 
             </div> -->
         </div>
+
         <div class="row">
             <div class="col-md-12">
                 <h4>Find Your Specilist Here</h4>
@@ -25,7 +26,7 @@ include "includes/header.php";
                 </div>
                 <!-- <h4>Top Doctors</h4> -->
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-consultations mt-2 ">
                     <div class="d-flex fever-case">
                         <h6>General practitioner</h6>
@@ -54,7 +55,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-consultations mt-2 ">
                     <div class="d-flex fever-case">
                         <h6>Gynecologist</h6>
@@ -83,7 +84,7 @@ include "includes/header.php";
                 </div>
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-consultations mt-2 ">
                     <div class="d-flex fever-case">
                         <h6> Dermatologist</h6>

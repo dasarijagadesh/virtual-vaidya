@@ -2,7 +2,7 @@
 include "includes/header.php";
 ?>
 <section class="padding-conson">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row back-icon">
             <div class="col-3 d-flex pt-2">
                 <a href="consult-Doctor.php" class="d-flex">
@@ -221,16 +221,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -265,17 +255,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -301,22 +287,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -353,7 +330,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -373,16 +354,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -417,17 +388,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -453,22 +420,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -505,7 +463,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -525,16 +487,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -569,17 +521,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -605,22 +553,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -657,7 +596,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -677,16 +620,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -721,17 +654,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -757,22 +686,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -798,7 +718,7 @@ include "includes/header.php";
             <div class="main-two">
 
                 <div class="card card-slot-time">
-                    <h5 class="today">Today, 10 Jan</h5>
+                    <h5 class="today">Today, 11 Jan</h5>
                     <div>
                         <div class="d-flex mt-2">
                             <i class="fas fa-cloud-sun pl-2"></i>
@@ -809,7 +729,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -829,16 +753,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -873,17 +787,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -909,22 +819,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -961,7 +862,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -981,16 +886,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -1025,17 +920,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -1061,22 +952,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -1113,7 +995,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -1133,16 +1019,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -1177,17 +1053,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -1213,22 +1085,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -1265,7 +1128,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -1285,16 +1152,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -1329,17 +1186,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -1365,22 +1218,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>
@@ -1417,7 +1261,11 @@ include "includes/header.php";
                     </div>
                     <div class="d-flex space-time ">
                         <div class="card-time-pm mb-2">
-                            <p>7:00 Am</p>
+                            <a href="payment-appointment.php">
+                                <p>7:00 Am</p>
+                            </a>
+
+
                         </div>
                         <div class="card-time-pm mb-2">
                             <p>7:30 Am</p>
@@ -1437,16 +1285,6 @@ include "includes/header.php";
                         <div class="card-time-pm mb-2">
                             <p>10:00 Am</p>
                         </div>
-                        <div class="card-time-pm mb-2">
-                            <p>10:30 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:00 Am</p>
-                        </div>
-                        <div class="card-time-pm mb-2">
-                            <p>11:3o Am</p>
-                        </div>
-
                     </div>
 
                 </div>
@@ -1481,17 +1319,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>3:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>3:30 pm</p>
-                    </div>
-
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Evening</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">7 Slots</p>
                     </div>
 
                 </div>
@@ -1517,22 +1351,13 @@ include "includes/header.php";
                     <div class="card-time-pm mb-2">
                         <p>7:00 pm</p>
                     </div>
-                    <div class="card-time-pm mb-2">
-                        <p>7:30 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:00 pm</p>
-                    </div>
-                    <div class="card-time-pm mb-2">
-                        <p>4:30 pm</p>
-                    </div>
 
                 </div>
                 <div>
                     <div class="d-flex mt-2">
                         <i class="fas fa-cloud-sun pl-2"></i>
                         <h6 class="pl-2">Night</h6>
-                        <p class="pl-2">8 Slots</p>
+                        <p class="pl-2">4 Slots</p>
                     </div>
 
                 </div>

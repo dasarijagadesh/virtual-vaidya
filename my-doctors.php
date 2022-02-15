@@ -15,9 +15,14 @@ include "includes/header.php";
                 <p class="help-isssue">General Queries</p>
 
             </div> -->
+
         </div>
+    </div>
+    <div class="container-fluid">
+
+
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <!-- <h4>My consultations</h4> -->
                 <div class="card card-consultations mt-2 ">
                     <div class="d-flex fever-case">
@@ -43,9 +48,8 @@ include "includes/header.php";
 
                 </div>
             </div>
-            <div class="col-md-6">
 
-
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-consultations mt-4">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>
@@ -70,7 +74,7 @@ include "includes/header.php";
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-consultations mt-4 ">
                     <div class="d-flex fever-case">
                         <h6>Jagadish fever</h6>

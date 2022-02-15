@@ -14,14 +14,15 @@ include "includes/header.php";
                 </div>
 
             </div>
-
-        </div>
-        <div class="row">
             <div class="col-12">
                 <h5 class="mt-2 mb-2">Attachment Files</h5>
             </div>
 
-            <div class="col-md-6">
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-uploads mt-2 mb-2">
                     <div class="row d-flex">
                         <div class="col-5">
@@ -36,7 +37,7 @@ include "includes/header.php";
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-uploads mt-2 mb-2">
                     <div class="row d-flex">
                         <div class="col-5">
@@ -51,7 +52,7 @@ include "includes/header.php";
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-uploads mt-2 mb-2">
                     <div class="row d-flex">
                         <div class="col-5">
@@ -66,7 +67,7 @@ include "includes/header.php";
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-uploads mt-2 mb-2">
                     <div class="row d-flex">
                         <div class="col-5">
@@ -81,7 +82,7 @@ include "includes/header.php";
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6 col-sm-6">
                 <div class="card card-uploads mt-2 mb-2">
                     <div class="row d-flex">
                         <div class="col-5">

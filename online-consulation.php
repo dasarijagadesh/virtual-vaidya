@@ -16,6 +16,8 @@ include "includes/header.php";
 
             </div> -->
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-6 mt-2 mb-2 padding-card-book">
                 <div class="card card-appointment">
